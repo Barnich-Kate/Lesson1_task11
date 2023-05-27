@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int a , v, s;
+	cout << "Write the side A:";
+	cin >> a;
+	s = 6*a*a;
+	v = a*a*a;
+	cout << "Surface area of a cube is equal " << s << "   ";
+	cout << "Volume of a cube is equal " << v;
+
+}
