@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+	double a , b, c;
+	cout << "Write the A:";
+	cin >> a;
+	cout << "Write the B:";
+	cin >> b;
+	c = (a+b)/2;
+	cout << "Arithmetic average of numbers a and b is equal " << c;
+
+}
