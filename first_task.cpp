@@ -6,3 +6,4 @@ int main() {
 	cin >> a;
 	P = 4*a;
 	cout << "The perimeter of the square is equal" << P;
+}
