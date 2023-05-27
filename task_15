@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+	double p = 3.14;
+	double d, l, s, r;
+	cout << "Write the area of the circle:";
+	cin >> s;
+	r = sqrt (s / p);
+	l = 2 * p * r;
+	d = r * 2;
+	cout << "The circle diametr is equal " << d << "   ";
+	cout << "The length of the circle is equal " << l;
+
+}
