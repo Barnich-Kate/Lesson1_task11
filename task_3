@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int a , b, p, s;
+	cout << "Write the side A:";
+	cin >> a;
+	cout << "Write the side B:";
+	cin >> b;
+	s = a*b;
+	p = 2*(a+b);
+	cout << "The area of the square is equal " << s ;
+	cout << "The perimeter of the square is equal " << p;
+
+}
